@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include <locale.h>
 #include <ctype.h>
 
@@ -21,6 +20,7 @@ int validar_nome(const char *nome)
     }
     return 1;
 }
+
 
 // Armazenando os dados da Cidade
 struct Cidade
